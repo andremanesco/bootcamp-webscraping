@@ -1,0 +1,16 @@
+###
+POST https://api.vendas.gpa.digital/pa/search/search
+content-type: application/json
+
+{
+  "terms": "cerveja",
+  "page": 1,
+  "sortBy": "relevance",
+  "resultsPerPage": 12,
+  "allowRedirect": true,
+  "storeId": 461,
+  "department": "ecom",
+  "customerPlus": true,
+  "partner": "linx",
+  "userHash": "fdcf23d14bb0eafd9f57ef1702499ff22de9530e4f5430383293940cf751acfe"
+}
